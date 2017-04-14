@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务六：UI组件之浮出层</title>
+    <link href="task06.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<button class="btn btn-default" onclick="modalShow()">浮动层</button>
+<div class="modal hidden" id="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" onclick="modalhidden()"><span>&times;</span></button>
+                <h4 class="modal-title">模态弹出窗标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>模态弹出窗主体内容</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" onclick="modalhidden()">确定</button>
+                <button type="button" class="btn btn-primary" onclick="modalhidden()">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function $(id_selector){
+        return document.getElementById(id_selector.substring(1, id_selector.length))
+    }
+    function modalShow(){
+        $('#modal').className='modal';
+    }
+    function modalhidden(){
+        $('#modal').className='modal hidden'
+    }
+</script>
+</body>
+</html>
