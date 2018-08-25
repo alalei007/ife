@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历-崔倩</title>
+</head>
+<body>
+<header>
+    <h1>
+        <span>姓名</span>
+        <mark>cc</mark>
+    </h1>
+    <address>
+        <p>web前端工程师</p>
+        <p>1651975289</p>
+        <p>xx省xx市</p>
+        <p>qq.cpm</p>
+    </address>
+</header>
+<main>
+    <section>
+        <h2>教育信息</h2>
+        <p>
+            <span>毕业院校：</span>
+            <mark>XXXX大学</mark>
+        </p>
+        <p>
+            <span>最高学位：</span>
+            <mark>硕士</mark>
+        </p>
+        <p>
+            <span>专业一：</span>
+            <mark>计算机应用</mark>
+        </p>
+        <p>
+            <span>专业二：</span>
+            <mark>Web前端</mark>
+        </p>
+        <p>起始年月</p>
+        <p>
+            <mark>主修课程：</mark>
+            <span>C语言</span>
+        </p>
+    </section>
+    <section>
+        <h2>教育信息</h2>
+        <ol>
+            <li>精通PHP SQL标准语句 熟悉C# 语言和Asp.net 开发，熟悉AJAX技术。</li>
+        </ol>
+    </section>
+</main>
+</body>
+</html>
